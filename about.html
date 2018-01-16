@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Website || About Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/custom.css" rel="stylesheet">
+   
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <script src="js/respond.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+	
+    <!-- row 1: navigation -->
+    
+    <div class="row">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+            	<ul class="nav navbar-nav">
+                	<li><a href="index.html">Home</a></li>
+                	<li class="active"><a href="about.html">About</a></li>
+                    <li><a href="#">Store</a></li>
+                	<li><a href="#">Gallery</a></li>
+                	<li><a href="#">Contact</a></li>  
+                </ul>
+            </div>  
+        </nav>
+    </div>
+    
+   
+    <!-- row 2: header -->
+    <header class="row">
+    	<div class="col-lg-6 col-sm-5">
+        	<a href="index.html"><img src="img/logo.png" class="img-responsive bblogo"></a>
+        </div>
+    	<div class="col-lg-6 col-sm-7">
+        	<img src="img/banner.jpg" class="img-responsive banner">
+        </div>
+    </header>
+    
+    
+    <!-- row 3: about page content -->
+    
+            <h1>About Us</h1>
+            <p><img src="img/about.jpg" class="img-responsive img-thumbnail pull-right"> We are an american clothing retail store that opened in 1994 in San Francisco. Old Navy is owned by Gap and we offer many clothing options for men, women, teens and kids. Our goal is to provide fashionable choices at an afforadble price. Old Navy puts customers first. We are here to help you find your latest outfit. </p> <br />
+            
+            <div>
+              <table class="table table-striped table-bordered table-hover">
+                <thead>
+                  <tr>
+                    <th>Office</th>
+                    <th>Address </th>
+                    <th>Contact</th>
+             
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>San Francisco</td>
+                    <td>2 Folsom St.
+San Francisco, CA 94105</td>
+                    <td>1-800-333-7899</td>
+                    
+                  </tr>
+                  <tr>
+                    <td>Toronto</td>
+                    <td>60 Bloor St., West, Suite 1501
+Toronto, Ontario, M4W 3B8</td>
+                    <td>416-921-2711</td>
+                   
+                  </tr>
+                  <tr>
+                    <td>London</td>
+                    <td>5th Floor, 6 St. Andrew Street
+London, EC4A 3AE
+United Kingdom</td>
+                    <td>+44 20 7518 6100</td>
+                  
+                  </tr>
+                </tbody>
+              </table>
+          </div><br />
+                       
+            
+          <!-- list navigation for tabs -->
+          <ul class= "nav nav-tabs">
+              <li><a href="#reviews" data-toggle="tab"> <span class="glyphicon glyphicon-pencil"</span> Reviews</a></li>
+              <li><a href="#contact" data-toggle="tab"><span class="glyphicon glyphicon-user"</span> Contact</a></li>
+              <li><a href="#location" data-toggle="tab"> <span class="glyphicon glyphicon-globe"</span> Location</a></li>
+             
+          </ul>
+            
+            
+        	 <!-- Tab content -->
+       		 <div class="tab-content">
+        
+       		   <!-- Reviews -->
+                <div class="tab-pane fade in active" id="reviews">
+                 <p><a href="img/tab-img1_LG.jpg" data-toggle="lightbox" data-title="Reviews"><img src="img/tab-img1.jpg" class="pull-left"></a>"Old Navy provides excellent customer care 5/5 stars" - Cheryl
+                 </p>
+                 <p><a href="#" class="btn btn-success btn-sm">Read more >></a></p>
+                </div>
+        
+                 <!-- Contact -->
+                <div class="tab-pane fade" id="contact">
+                 <p><a href="img/tab-img2_LG.jpg" data-toggle="lightbox" data-title="Contact"><img src="img/tab-img2.jpg" class="pull-left"></a>
+    <p>By phone:
+    1-800-653-6289
+    Please dial 711 for relay service</p>
+   <p> By e-mail: Click here to e-mail Old Navy customer service.</p>
+    <p>By mail for Correspondence: Old Navy Canada Customer Service, 13153 Coleraine Dr., Bolton, ON L7E 3B6, Canada</p>
+ </p>
+                 <p><a href="#" class="btn btn-success btn-sm">Read more >></a></p>
+                </div>
+        
+                 <!-- Location -->
+                <div class="tab-pane fade" id="location">
+                 <p><a href="img/tab-img3_LG.jpg" data-toggle="lightbox" data-title="Location"><img src="img/tab-img3.jpg" class="pull-left"></a>Old Navy has many locations across Canada and Ontario. Please click read more to find a store near you! </p>
+                 <p><a href="#" class="btn btn-success btn-sm">Read more >></a></p>
+                </div>
+   
+                
+        </div><!-- end tab content -->
+            
+      </article>
+        
+    
+
+        </div><!-- end row 3 -->
+    
+    <!-- row 4 -->
+     <footer class="row">
+        <p>
+            <small>
+            This is not a real website -- it was built for education purposes only.	            </small>
+            <br />
+            <small>Privacy Policy | Terms of Use</small>
+        </p>
+    </footer>
+
+</div> <!-- end container -->
+
+<!-- javascript -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- linking JavaScript file necessary for lightbox in tabs -->
+    <script src="js/ekko-lightbox.js"></script>
+
+    <!-- Embedded JavaScript for successful lightbox operation -->
+    <script type="text/javascript">
+            $(document).ready(function ($) {
+				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+					event.preventDefault();
+					return $(this).ekkoLightbox();
+				});
+			});
+    </script>
+    
+</body>
+</html>
