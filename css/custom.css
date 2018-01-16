@@ -5,9 +5,8 @@
 body {
 	background-image: url(../img/BG.png);
 	background-position: top center;
-	background-size:cover;
+	background-size: cover;
 }
-
 
 footer {
 	background-color: #163e69;
@@ -23,32 +22,34 @@ footer {
 .bannerad {
 	margin: 7% 4% 4% 4%;
 }
+
 .jborder {
 	border: 1px solid #FFFFFF;
 	background-color: white;
 	padding: 20px;
 }
 
-.bblogo { 
-	margin: 15% 4% 4% 4%; }
+.bblogo {
+	margin: 15% 4% 4% 4%;
+}
 
-.banner { margin: 12% 4% 4% 4%; }
+.banner {
+	margin: 12% 4% 4% 4%;
+}
 
 .jumbotron {
 	background-color: #163e69;
 }
 
 .jumbotron h1 {
-	color:white; 
+	color: white;
 }
 
 .jumbotron p {
 	color: white;
 }
 
-
-
-
-
-
-
+h4 {
+	font-size: 20px;
+	color: red;
+}
